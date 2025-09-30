@@ -11,7 +11,7 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: lib/techschool_web/live/page_live/home.html.heex:53
+#: lib/techschool_web/live/page_live/home.html.heex:84
 #, elixir-autogen, elixir-format
 msgid "Free technology education for everyone"
 msgstr ""
@@ -25,7 +25,7 @@ msgstr ""
 #: lib/techschool_web/components/layouts/components/navbar.html.heex:17
 #: lib/techschool_web/components/layouts/components/navbar_live.ex:35
 #: lib/techschool_web/live/course_live/index.ex:44
-#: lib/techschool_web/live/page_live/home.html.heex:155
+#: lib/techschool_web/live/page_live/home.html.heex:186
 #, elixir-autogen, elixir-format
 msgid "Courses"
 msgstr ""
@@ -35,7 +35,7 @@ msgstr ""
 msgid "Developed by"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:130
+#: lib/techschool_web/live/page_live/home.html.heex:161
 #, elixir-autogen, elixir-format
 msgid "Our mission"
 msgstr ""
@@ -46,7 +46,7 @@ msgstr ""
 msgid "close"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:56
+#: lib/techschool_web/live/page_live/home.html.heex:87
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Go from zero to your first job without any financial loss"
 msgstr ""
@@ -56,12 +56,12 @@ msgstr ""
 msgid "Translate"
 msgstr "Traduzir"
 
-#: lib/techschool_web/live/page_live/home.html.heex:133
+#: lib/techschool_web/live/page_live/home.html.heex:164
 #, elixir-autogen, elixir-format
 msgid "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:139
+#: lib/techschool_web/live/page_live/home.html.heex:170
 #, elixir-autogen, elixir-format
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr ""
@@ -124,12 +124,12 @@ msgstr ""
 msgid "Fundamentals"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:187
+#: lib/techschool_web/live/page_live/home.html.heex:218
 #, elixir-autogen, elixir-format
 msgid "Huge thanks to our contributors"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:215
+#: lib/techschool_web/live/page_live/home.html.heex:246
 #, elixir-autogen, elixir-format
 msgid "Add course to TechSchool"
 msgstr ""
@@ -193,17 +193,17 @@ msgid "new"
 msgstr ""
 
 #: lib/techschool_web/components/layouts/components/navbar.html.heex:24
-#: lib/techschool_web/live/page_live/home.html.heex:162
+#: lib/techschool_web/live/page_live/home.html.heex:193
 #, elixir-autogen, elixir-format
 msgid "Bootcamps"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:150
+#: lib/techschool_web/live/page_live/home.html.heex:181
 #, elixir-autogen, elixir-format
 msgid "Platform Statistics"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:167
+#: lib/techschool_web/live/page_live/home.html.heex:198
 #, elixir-autogen, elixir-format
 msgid "Total Views"
 msgstr ""
@@ -216,4 +216,9 @@ msgstr ""
 #: lib/techschool_web/live/course_live/index.html.heex:66
 #, elixir-autogen, elixir-format
 msgid "Loading more courses..."
+msgstr ""
+
+#: lib/techschool_web/live/page_live/home.html.heex:64
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Introducing Course Shelf - A Better Learning Experience"
 msgstr ""
