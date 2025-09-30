@@ -27,7 +27,16 @@ defmodule TechschoolWeb.BootcampLive.Show do
       page_description
     )
     |> assign(:bootcamp, bootcamp)
+    |> assign(:bootcamp_search_name, sanitize_bootcamp_name(bootcamp.name))
     |> ok()
+  end
+
+  defp sanitize_bootcamp_name(name) do
+    name
+    |> String.replace(~r/expert/i, "")
+    |> String.replace(~r/development/i, "")
+    |> String.replace(~r/node\s+backend/i, "Node.js")
+    |> String.trim()
   end
 
   def build_lesson_url(locale, lesson) do
