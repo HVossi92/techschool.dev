@@ -3,7 +3,7 @@ defmodule TechschoolWeb.SharedComponents do
 
   attr :name, :string,
     values:
-      ~w(github discord heart analytics logo c javascript css elixir gleam golang html java liquid php python ruby typescript algorithms computer-science networking programming docker git linux sql shopify angular django express godot laravel nest next node phoenix rails react remix spring tailwind vue react-router)
+      ~w(github discord heart analytics logo c javascript css elixir gleam golang html java liquid php python ruby typescript algorithms computer-science networking programming docker git linux sql shopify angular django express godot laravel nest next node phoenix rails react remix spring tailwind vue react-router ash)
 
   attr :rest, :global, doc: "the arbitrary HTML attributes to add to the svg"
 
