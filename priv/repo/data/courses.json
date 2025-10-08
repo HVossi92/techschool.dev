@@ -1699,5 +1699,14 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Ash Framework SaaS Masterclass",
+    "youtube_course_id": "PL2Rv8vpZJz4xfqYRlkO3IPg8uBuuHccwf",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Ash"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
