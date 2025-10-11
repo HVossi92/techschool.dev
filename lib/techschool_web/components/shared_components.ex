@@ -3,7 +3,7 @@ defmodule TechschoolWeb.SharedComponents do
 
   attr :name, :string,
     values:
-      ~w(github discord heart analytics logo c javascript css elixir gleam golang html java liquid php python ruby typescript algorithms computer-science networking programming docker git linux sql shopify angular django express godot laravel nest next node phoenix rails react remix spring tailwind vue react-router)
+      ~w(github discord heart analytics logo c javascript css elixir gleam golang html java liquid php python ruby typescript algorithms computer-science networking programming docker git linux sql shopify angular django express godot laravel nest next node phoenix rails react remix spring tailwind vue react-router ash)
 
   attr :rest, :global, doc: "the arbitrary HTML attributes to add to the svg"
 
@@ -1531,6 +1531,29 @@ defmodule TechschoolWeb.SharedComponents do
             fill="#41B883"
             d="m.91 9.569 25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z"
           />
+        </svg>
+        """
+
+      "ash" ->
+        ~H"""
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="123"
+          height="100"
+          viewBox="0 0 123 100"
+          fill="none"
+          {@rest}
+        >
+          <path d="M61.1819 0L122.364 100H119.033L44.1681 27.8086L61.1819 0Z" fill="#FF5757" />
+          <path
+            d="M22.2352 100H29.4163L67.9877 53.5421L43.6726 30.0954L22.2352 100Z"
+            fill="#FF914D"
+          />
+          <path d="M52.3575 100H32.0029L52.7027 75.0678L52.3575 100Z" fill="#FFBD59" />
+          <path d="M54.3478 100H91.6425L54.725 72.7514L54.3478 100Z" fill="#FF5757" />
+          <path d="M95.8815 100L70.8665 56.3181L116.166 100H95.8815Z" fill="#FF914D" />
+          <path d="M92.5593 98.2033L55.9368 71.1724L68.4492 56.1016L92.5593 98.2033Z" fill="#FFBD59" />
+          <path d="M20.1537 100H0L40.4074 33.9553L20.1537 100Z" fill="#FFBD59" />
         </svg>
         """
 
